@@ -24,7 +24,7 @@ header{
     background: #35424a;
     color: #ffffff;
     padding-top: 30px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: green 3px solid;
     min-height: 80px;
 
 }
@@ -63,10 +63,6 @@ header a:hover{
     color:#cccccc
 }
 
-.btn1 {
-    cursor: pointer;
-}
-
 #showcase{
     min-height: 150px;
     color: black;
@@ -84,11 +80,28 @@ header a:hover{
 }
 
 
-.box{
+#boxes{
     margin-top: 20px;
-    margin-bottom: 10px;
 }
 
+#boxes .box{
+    float:left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:green;
+    text-align: center;
+}
 #tab {
     display: inline;
     padding: 0 30px 0 30px;
